@@ -1,0 +1,31 @@
+@media only screen and (max-width: 767px) {
+    .container {
+        margin: 0;
+    }
+
+    .grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .visual-container {
+        display: none;
+    }
+
+    .form-container {
+        margin: 1rem;
+    }
+
+    .forgot-card {
+        padding: 4rem 2rem;
+        width: 100%;
+    }
+
+    .forgot-form {
+        width: 100%;
+    }
+
+    header {
+        padding: 1.5rem;
+        flex-wrap: wrap;
+    }
+}
